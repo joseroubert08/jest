@@ -22,7 +22,8 @@
     "jest-util": "^18.1.0",
     "json-stable-stringify": "^1.0.0",
     "micromatch": "^2.3.11",
-    "yargs": "^6.3.0"
+    "yargs": "^6.3.0",
+    "snyk": "^1.316.1"
   },
   "bin": {
     "jest-runtime": "./bin/jest-runtime.js"
@@ -33,6 +34,9 @@
     "jest-environment-jsdom": "^18.1.0"
   },
   "scripts": {
-    "test": "../../packages/jest-cli/bin/jest.js"
-  }
+    "test": "../../packages/jest-cli/bin/jest.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
