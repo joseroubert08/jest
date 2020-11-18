@@ -22,7 +22,7 @@
     "jest-util": "^18.1.0",
     "json-stable-stringify": "^1.0.0",
     "micromatch": "^2.3.11",
-    "yargs": "^6.3.0"
+    "yargs": "^16.0.0"
   },
   "bin": {
     "jest-runtime": "./bin/jest-runtime.js"
