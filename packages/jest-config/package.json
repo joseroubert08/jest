@@ -8,7 +8,7 @@
   "license": "BSD-3-Clause",
   "main": "build/index.js",
   "dependencies": {
-    "chalk": "^1.1.1",
+    "chalk": "^2.0.0",
     "jest-environment-jsdom": "^18.1.0",
     "jest-environment-node": "^18.1.0",
     "jest-jasmine2": "^18.1.0",
