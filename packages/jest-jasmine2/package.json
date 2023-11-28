@@ -9,10 +9,10 @@
   "main": "build/index.js",
   "dependencies": {
     "graceful-fs": "^4.1.6",
-    "jest-matcher-utils": "^18.1.0",
-    "jest-matchers": "^18.1.0",
-    "jest-snapshot": "^18.1.0",
-    "jest-util": "^18.1.0"
+    "jest-matcher-utils": "^21.0.0",
+    "jest-matchers": "^19.0.0",
+    "jest-snapshot": "^21.0.0",
+    "jest-util": "^21.0.0"
   },
   "scripts": {
     "test": "../../packages/jest-cli/bin/jest.js"
