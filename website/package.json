@@ -5,7 +5,7 @@
     "gh-pages": "node publish-gh-pages.js"
   },
   "dependencies": {
-    "connect": "2.8.3",
+    "connect": "3.0.0",
     "feed": "0.3.0",
     "fs.extra": "*",
     "glob": "*",
